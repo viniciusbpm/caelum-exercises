@@ -6,6 +6,10 @@ public class Carro {
     private String cor;
     private int ano;
 
+    public Carro(String nome) {
+        this.nome = nome;
+    }
+
     public String getNome() {
         return nome;
     }
